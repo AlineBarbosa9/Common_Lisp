@@ -22,3 +22,22 @@
 
 ; Retorna T se n maior que 9
 (defun maior9 (n)(> n 9))
+
+; Função MaisumP
+(defun maisump (x y)(equal x (+ y 1)))
+
+; Função MaisdoisP
+(defun maisdoisp (x y)(equal x (+ y 2)))
+
+; Função MaisodoisP com -
+(defun maisdoisp2 (x y) (equal 2 (- x y)))
+
+; Função MEDIA
+(defun media (x y)(/(+ x y) 2))
+
+; Função MaisMetade
+(defun maismetade (x y)(> x (/ y 2)))
+
+; Função Diferente
+(defun diferentep (x y)
+  (not (equal x y)))
