@@ -64,8 +64,4 @@ Os arquivos foram testados com [SBCL](http://www.sbcl.org/) (Steel Bank Common L
 
 ## Bibliografia
 
-- Touretzky, David S. *A Gentle Introduction to Symbolic Computation*.
-
-## Autor
-
-Aline Barbosa Vidal
+- Touretzky, David S. *A Gentle Introduction to Symbolic Computation*
