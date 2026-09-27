@@ -24,7 +24,7 @@ Consolidar os fundamentos de Lisp e do paradigma funcional através de exercíci
 
 ### Algoritmos de ordenação
 
-- **Selection sort**
+- **Insertion sort**
 - **Merge sort**
 - **Quick sort**
 
@@ -54,11 +54,11 @@ Os arquivos foram testados com [SBCL](http://www.sbcl.org/) (Steel Bank Common L
    ```
 3. Carregue o arquivo desejado:
    ```lisp
-   * (load "selection-sort.lisp")
+   * (load "insertion-sort.lisp")
    ```
 4. Chame a função definida no arquivo com os argumentos de teste, por exemplo:
    ```lisp
-   * (selection-sort '(5 3 8 1 2))
+   * (insertion-sort '(5 3 8 1 2))
    (1 2 3 5 8)
    ```
 
